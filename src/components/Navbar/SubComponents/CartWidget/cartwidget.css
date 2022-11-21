@@ -1,0 +1,14 @@
+.icon-cart{
+    font-size: 30px;
+    color: #fff;
+    position:relative
+}
+.icon-cart div{
+    top: 5px;
+    left: 20px;
+    font-size: 12px;
+    padding: 0 5px;
+    border-radius: 100%;
+    position: absolute;
+    background-color: rgb(255, 208, 0);
+}
