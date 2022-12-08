@@ -1,6 +1,6 @@
 import { BsFillCartPlusFill } from "react-icons/bs";
 //styles
-import '../styles/CartWidget.css'
+import '../styles/Cartwidget.css'
 const CartWidget = () => {
   return (
     <span className="icon-cart">
