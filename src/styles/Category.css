@@ -1,0 +1,52 @@
+.category__wrapper{
+  padding: 10px;
+  width: 95%;
+  margin: 20px auto;  
+  min-height: calc(100vh - 111px);
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
+.customCard{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 15px;
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+.customCard .rating{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.rating div{
+    display: flex;
+    align-items: center;
+}
+.customCard img{
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.customCard a{
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+    border: 1px solid rgb(216, 216, 216);
+    background-color: none;
+    border-radius: 10px;
+    color: #fff;
+    background-color: blueviolet;
+    padding: 5px 20px;
+}
+
+.customCard a:hover{
+    background-color: rgb(112, 35, 184);
+    text-decoration: none;
+    color: #fff;
+}

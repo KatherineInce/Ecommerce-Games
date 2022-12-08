@@ -1,0 +1,190 @@
+{
+    "games":[
+        {
+            "id": 1,
+            "name": "Soul Calibur IV",
+            "rated": 4,
+            "img": "https://upload.wikimedia.org/wikipedia/en/6/6c/Soulcalibur_IV_cover.png",
+            "description": "Features Story, Arcade, Training, and Museum modes. A new mode, Tower of Lost Souls, requires the player to win battles in order to gain rewards. The game runs in HD resolution with 5.1 channel surround sound on both platforms.",
+            "platforms": ["Playstation 3", "Xbox 360"],
+            "trailer": "https://www.youtube.com/embed/HyhBLOLrVdM",
+            "price": 49.99,
+            "similar": [
+                "https://i.ebayimg.com/images/g/W38AAOSwFqNZOr1Y/s-l500.jpg",
+                "https://www.gamespot.com/a/uploads/scale_medium/mig/4/7/9/7/2214797-box_scalibur2.png",
+                "https://upload.wikimedia.org/wikipedia/en/5/51/ScIIIbox.jpg",
+                "https://upload.wikimedia.org/wikipedia/en/a/a7/SoulcaliburV.png",
+                "https://upload.wikimedia.org/wikipedia/en/8/84/Soulcalibur_VI_cover_art.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Mortal Kombat 11",
+            "rated": 3,
+            "img": "https://m.media-amazon.com/images/M/MV5BNmY2ZDFlZWUtZjliZi00ZGFiLTgxYTYtYTU1MTgwYjMzNDkyXkEyXkFqcGdeQXVyMTI1Mzg0ODA5._V1_.jpg",
+            "description": "Fighting game developed by NetherRealm Studios and published by Warner Bros. Interactive Entertainment. It is the eleventh main installment in the Mortal Kombat series and a sequel to 2015's Mortal Kombat X.",
+            "platforms": ["PC",
+                "Nintendo Switch",
+                "PlayStation 4",
+                "Xbox One",
+                "Stadia",
+                "PlayStation 5",
+                "Xbox Series X/S"],
+            "trailer": "https://www.youtube.com/embed/7zwQPJmg-Kg",
+            "price": 59.99,
+            "similar": [
+                "https://upload.wikimedia.org/wikipedia/en/d/d0/Mortal_Kombat_X_Cover_Art.png"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Overwatch 2",
+            "rated": 2,
+            "img": "https://image.api.playstation.com/vulcan/ap/rnd/202209/2115/Uopbez9uDdyo77Y0SJ55glkE.png",
+            "description": "Is a free-to-play, team-based action game set in the optimistic future, where every match is the ultimate 5v5 battlefield brawl. Play as a time-jumping freedom fighter, a beat-dropping battlefield DJ, or one of over 30 other unique heroes as you battle it out around the globe.",
+            "platforms": ["Nintendo Switch",
+            "PlayStation 4",
+            "PlayStation 5",
+            "PC",
+            "Xbox One",
+            "Xbox Series X/S"],
+            "trailer": "https://www.youtube.com/embed/PSucU14Iogw",
+            "price": 0,
+            "similar": [
+                "https://assets-prd.ignimgs.com/2021/12/14/leagueoflegends-1639513774570.jpg",
+                "https://upload.wikimedia.org/wikipedia/en/6/65/World_of_Warcraft.png"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Apex Legends",
+            "rated": 4,
+            "img": "https://upload.wikimedia.org/wikipedia/en/d/db/Apex_legends_cover.jpg",
+            "description": " is a free-to-play battle royale-hero shooter game developed by Respawn Entertainment and published by Electronic Arts. It was released for Microsoft Windows, PlayStation 4, and Xbox One in February 2019, for Nintendo Switch in March 2021, and for PlayStation 5 and Xbox Series X/S in March 2022.",
+            "platforms": ["PC",
+            "PlayStation 4",
+            "Xbox One",
+            "Nintendo Switch",
+            "PlayStation 5",
+            "Xbox Series X/S",
+            "Android",
+            "iOS"],
+            "trailer": "https://www.youtube.com/embed/yUj-9faWDcM",
+            "price": 39.99,
+            "similar": [
+                "https://assets1.ignimgs.com/2018/03/06/fortnite---button-1520296499714.jpg",
+                "https://image.api.playstation.com/cdn/UP0002/CUSA08829_00/xmKUnAOenEAKspB3FlOg80aQZfEoCYcE.png"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Eternal Sonata",
+            "rated": 5,
+            "img": "https://upload.wikimedia.org/wikipedia/en/a/aa/Eternal_Sonata.jpg",
+            "description": "Follows many general conventions in a typical role-playing video game; the player controls a party of up to twelve characters to explore the world, talking with its inhabitants, buying and selling equipment at shops, and encountering monsters while in the field.",
+            "platforms": ["Xbox 360", "PlayStation 3"],
+            "trailer": "https://www.youtube.com/embed/6_t9jk7Se7Q",
+            "price": 49.99,
+            "similar": [
+                "https://dragonquest.square-enix-games.com/images/dqxi_panel_us.jpg",
+                "https://media.graphassets.com/uPm9U8eRkuaZlRX37H4g"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Destiny 2",
+            "rated": 3,
+            "img": "https://upload.wikimedia.org/wikipedia/en/0/05/Destiny_2_%28artwork%29.jpg",
+            "description": "Players assume the role of a Guardian, protectors of Earth's last safe city as they wield a power called Light to protect humanity from different alien races and combat the looming threat of the Darkness.",
+            "platforms": ["Microsoft Windows",
+                "PlayStation 4",
+                "Xbox One",
+                "Stadia",
+                "PlayStation 5",
+                "Xbox Series X/S"],
+            "trailer": "https://www.youtube.com/embed/a1OrQIg-7ao",
+            "price": 79.99,
+            "similar": [
+                "https://store-images.s-microsoft.com/image/apps.21536.13727851868390641.c9cc5f66-aff8-406c-af6b-440838730be0.68796bde-cbf5-4eaa-a299-011417041da6",
+                "https://upload.wikimedia.org/wikipedia/en/b/ba/MetroidPrimebox.jpg"
+            ]
+        }
+    ],
+    "hardware":[
+        {
+            "id": 1,
+            "name": "PS5",
+            "rated": 4,
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc3NOAELBvsMkCTSjFQ9h1YuQg7MP38D7xLA&usqp=CAU",
+            "description": "is a home video game console developed by Sony Interactive Entertainment. Announced in 2019 as the successor to the PlayStation 4, the PS5 was released on November 12, 2020, in Australia, Japan, New Zealand, North America, and South Korea, with worldwide release following a week later. The PS5 is part of the ninth generation of video game consoles, along with Microsoft's Xbox Series X and Series S consoles, which were released in the same month.",
+            "platforms": [],
+            "trailer": "https://www.youtube.com/embed/RkC0l4iekYo",
+            "price": 799.99,
+            "similar": [
+                "https://m.media-amazon.com/images/I/610SsJ5aAQL.jpg",
+                "https://m.media-amazon.com/images/I/612bjwBuobS._SL1500_.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "XBOX ONE",
+            "rated": 3,
+            "img": "https://media.gamestop.com/i/gamestop/10138879/Microsoft-Xbox-One-S-500GB-Console-White",
+            "description": " is a home video game console developed by Microsoft. Announced in May 2013, it is the successor to Xbox 360 and the third base console in the Xbox series of video game consoles. It was first released in North America, parts of Europe, Australia, and South America in November 2013 and in Japan, China, and other European countries in September 2014. It is the first Xbox game console to be released in China, specifically in the Shanghai Free-Trade Zone. Microsoft marketed the device as an 'all-in-one entertainment system', hence the name 'Xbox One'. An eighth-generation console, it mainly competed against Sony's PlayStation 4 and Nintendo's Wii U and later the Switch.",
+            "platforms": [],
+            "trailer": "https://www.youtube.com/embed/Spz5olq7K1A",
+            "price": 299.99,
+            "similar": [
+                "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4FlSK?ver=3eb6"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "XBOX SERIES S",
+            "rated": 4,
+            "img": "https://panama.plays-agnes.com/wp-content/uploads/2021/06/XBOX.jpg",
+            "description": "are home video game consoles developed by Microsoft. They were both released on November 10, 2020, as the fourth generation Xbox, succeeding the Xbox One. Along with Sony's PlayStation 5, also released in November 2020, the Xbox Series X/S consoles are part of the ninth generation of video game consoles.",
+            "platforms": [],
+            "trailer": "https://www.youtube.com/embed/KHLfCFMKxPg",
+            "price": 799.99,
+            "similar": [
+                "https://m.media-amazon.com/images/I/513gfnMEWnL.jpg",
+                "https://m.media-amazon.com/images/I/51ODvrKqxTL.jpg"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "PS4",
+            "rated": 5,
+            "img": "https://m.media-amazon.com/images/I/61ryVJLDlFL._AC_SX466_.jpg",
+            "description": " is a home video game console developed by Sony Interactive Entertainment. Announced as the successor to the PlayStation 3 in February 2013, it was launched on November 15, 2013, in North America, November 29, 2013 in Europe, South America and Australia, and on February 22, 2014 in Japan. A console of the eighth generation, it competes with the Microsoft's Xbox One and the Nintendo's Wii U and Switch.",
+            "platforms": [],
+            "trailer": "https://www.youtube.com/embed/Jw8HCFZkBds",
+            "price": 399.99,
+            "similar": [
+                "https://m.media-amazon.com/images/I/413o3EQ4JbL._AC_SL1500_.jpg"
+            ]
+        }
+    ],
+    "figures":[
+        {
+            "id": 1,
+            "name": "Hatsune Miku",
+            "rated": 5,
+            "img": "https://images.goodsmile.info/cgm/images/product/20091023/535/5214/large/6d25a0f56aa7049640fea87a1ed59a34.jpg",
+            "description": "models come with several faces, hands and props that can be changed around. They are articulated figurines held in high standard for their posing abilities, which fake figma models often fail to recreate. figmas are, however, fragile and good care needs to be taken when handling them. They are not a toy and are built purely for collecting.",
+            "platforms": [],
+            "trailer": "",
+            "price": 599.99,
+            "similar": [
+                "https://images.goodsmile.info/cgm/images/product/20130717/3991/25124/large/49a3818d8e3fee4d88b67405cca8ebed.jpg",
+                "https://www.mikufan.com/wp-content/uploads/2014/11/ed63a9334129d1ee6cb5b53848c846da.jpg",
+                "https://www.ultratc.com/web/image/product.template/64047/image_1024?unique=540b0b4",
+                "https://cdn.shopify.com/s/files/1/0154/7499/products/figmaRacingMiku_2021ver._1024x1024.png?v=1626204040",
+                "https://cdn.shoplightspeed.com/shops/608693/files/13550989/800x1024x2/max-factory-racing-miku-2018-figma-sp-103.jpg",
+                "https://media1.nin-nin-game.com/67142-pos_thickbox/hatsune-miku-gt-project-racing-miku-2016-teamukyo-support-ver-figma-365-.jpg",
+                "https://goodsmileshop.com/medias/sys_master/images/images/h42/h3c/9407008735262.jpg"
+            ]
+        }
+    ]
+}
