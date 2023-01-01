@@ -21,14 +21,7 @@
     justify-content: space-around;
     font-size: 25px;
 }
-.detail__header__price button{
-    background-color: blueviolet;
-    border:none;
-    font-size: 20px;
-    border-radius: 10px;
-    padding: 2px 15px;
-    color: #fff;
-}
+
 .detail__header__content{
     padding: 0 20px;
 }

@@ -6,9 +6,9 @@ const Rating = ({qty}) => {
     <div>
         {[1,2,3,4,5].map(index => 
             index <= qty ?
-            <IoIosStar style={{color: 'rgb(233, 233, 0)', fontSize:'25px'}}/>
+            <IoIosStar key={index} style={{color: 'rgb(233, 233, 0)', fontSize:'25px'}}/>
             :
-            <IoIosStarOutline style={{color: 'yellow', fontSize:'25px'}}/>
+            <IoIosStarOutline key={index} style={{color: 'yellow', fontSize:'25px'}}/>
         )}
     </div>
   )

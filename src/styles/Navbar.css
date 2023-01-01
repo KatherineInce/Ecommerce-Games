@@ -1,20 +1,26 @@
-.nav-item{
+.navbar-custom .nav-item{
     margin: 0 2px;
     display: flex;
     align-items: center;
     height: 70px;
 }
-.nav-link:hover, .active{
+.navbar-custom .nav-link:hover, .navbar-custom .active{
     border-radius: 100%;
     font-size: 18px;
     border-bottom: solid rgb(255, 208, 0) 4px;
 }
 
-.navbar{
+.navbar-custom .navbar{
     background-color: blueviolet;
 }
 
-.navbar .container-fluid .navbar-brand,.navbar-toggler,.nav-link{
+.navbar-custom .navbar .container-fluid .navbar-brand,.navbar-custom .navbar-toggler, .navbar-custom .nav-link{
     color: #fff !important;
+}
+
+.navbar-custom .icons{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
 }
 

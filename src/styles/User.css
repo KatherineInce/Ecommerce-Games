@@ -1,0 +1,12 @@
+.user-container{
+    width: 60%;
+    margin: 0 20%;
+}
+
+.user-container .tab-content{
+    background-color: #fff;
+    border: 1px solid rgb(223, 223, 223);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top: none;
+}

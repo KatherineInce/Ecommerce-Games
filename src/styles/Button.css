@@ -1,0 +1,8 @@
+.custom-button{
+    background-color: blueviolet;
+    border:none;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 2px 15px;
+    color: #fff;
+}

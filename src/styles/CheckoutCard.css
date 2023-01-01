@@ -1,0 +1,21 @@
+.checkout-card{
+    display: grid;
+    grid-gap: 20px;
+
+    border-bottom: 1px solid blueviolet;
+    justify-content: center;
+    grid-template-columns: .5fr 5fr 1fr 1fr 1fr;
+    grid-template-rows: 100px;
+    align-items: center;
+}
+
+.checkout-card img{
+    height: 90px;
+    width: 80px;
+}
+
+.checkout-card button{
+    background-color: transparent;
+    border: none;
+    color: red;
+}

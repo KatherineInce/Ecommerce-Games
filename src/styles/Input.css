@@ -1,0 +1,38 @@
+.input-container--number{
+    width: 100%;
+    display: flex;
+    column-gap: 20px;
+}
+.input-container{
+    display: inline-flex;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.input-container label{
+    text-align: right;
+    width: 150px;
+}
+
+.input-container input ,.input-container--number input{
+    text-align: center;
+    border:none;
+    border: 1px solid rgb(255, 208, 0);
+    color: blueviolet;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.input-container--number input{
+    width: 100px;
+}
+
+.input-container input:hover,.input-container input:focus,.input-container input:active
+.input-container--number input:hover,.input-container--number input:focus,.input-container--number input:active{
+
+    outline: none;
+}
+
+.input-container input::placeholder, .input-container--number input::placeholder{
+    color: rgba(137, 43, 226, 0.532);
+}
