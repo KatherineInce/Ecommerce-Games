@@ -1,3 +1,4 @@
+import {useEffect, useState} from 'react'
 import {Link} from 'react-router-dom'
 
 import { BsFillCartPlusFill } from "react-icons/bs";
@@ -8,10 +9,16 @@ import '../styles/Cartwidget.css'
 //context
 import {useContextData} from '../context'
 const CartWidget = () => {
+  const [total,setTotal] = useState(0)
   const {order} = useContextData()
+  useEffect(() => {
+    let sumTotal = order.reduce((acc,item) => acc+parseInt(item.qty),0)
+    setTotal(sumTotal)
+  }, [order])
+  
   return (
     <Link to="/cart"  className="icon-cart">
-        {order.length > 0 && <div>{order.length}</div>}
+        {total > 0 && <div>{total}</div>}
         <BsFillCartPlusFill/>
     </Link>
   )

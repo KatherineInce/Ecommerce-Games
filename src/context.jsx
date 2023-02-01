@@ -10,6 +10,7 @@ const context = ({children}) => {
 
 
     const [loading,setLoading] = useState(false)
+    const [completedOrderId, setCompletedOrderId] = useState()
     const [order,setOrder] = useState([])
     const [historyByUser,setHistoryByUser] = useState([])
     const [categoryData,setCaregoryData] = useState([])
@@ -149,6 +150,7 @@ const context = ({children}) => {
         addDoc(collectionOrders,{id:validUser.id,order:order})
         .then(resp=> 
            {
+                setCompletedOrderId(resp.id)
                 addProduct([])
                 setOrderValidation({
                 isInvalid: false,
@@ -165,8 +167,13 @@ const context = ({children}) => {
     const getHistoryByUser = _ => {
         const filterOrdersByUser = query(collectionOrders, where("id","==",validUser.id))
         getDocs(filterOrdersByUser)
-        .then(data => {setHistoryByUser(data.docs.map(item=>item.data()))
-            console.log(data.docs.map(item=>item.data()))
+        .then(data => {
+            setHistoryByUser(data.docs.map(item=>{
+                return({
+                    id: item.id,
+                    data: item.data()
+                })
+            }))
         })
         .catch(error=>setHistoryByUser([]))
     }
@@ -181,13 +188,16 @@ const context = ({children}) => {
         order,
         orderValidation,
         historyByUser,
+        completedOrderId,
         getHistoryByUser,
         addProduct,
         setLogin,
+        setOrder,
         getCategoryData,
         getDetailsById,
         setRegisterUser,
-        saveOrders
+        saveOrders,
+        setCompletedOrderId
     }}>
         {children}
     </AppContext.Provider>

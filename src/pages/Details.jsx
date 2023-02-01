@@ -107,7 +107,7 @@ const Details = () => {
             :<div className='detail__header__novideo'>No Video Available</div>}
         </div>
         <div className='detail__body'>
-            <h4>Also would like you</h4>
+            <h4>You would also like</h4>
             <div>
                 {detailsData.similar &&
                     detailsData.similar.map(item=>

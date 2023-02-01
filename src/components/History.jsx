@@ -12,10 +12,10 @@ const History = () => {
   return (
     <div className='history'>
         <h4>Previous Order of <span>{validUser.username}</span></h4>
-        {historyByUser.map((order,index)=>
+        {historyByUser.map(order=>
         <div>
-            <h5>Order {index+1}</h5>
-            {order.order.map(item=>
+            <h5>Order <span>{order.id}</span></h5>
+            {order.data.order.map(item=>
                 <HistoryCard data={item}/>
             )}
             
