@@ -81,7 +81,7 @@ const Checkout = () => {
         </>
         }
       </> :
-        "You must login first"
+        <div>You must login first <Link to="/user">go to login</Link></div>
       }
     </div>
   )
