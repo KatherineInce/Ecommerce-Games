@@ -1,5 +1,5 @@
 import {useEffect, useState} from 'react'
-import {useParams} from 'react-router-dom'
+import {useParams,Link} from 'react-router-dom'
 
 //styles
 import '../styles/Details.css'
@@ -16,6 +16,9 @@ const Details = () => {
   const {loading,order,validUser,detailsData,getDetailsById,addProduct} =  useContextData()
   const {id} = useParams()
   const [qty,setQty] = useState(1)
+  const hideModal = _ =>{
+    document.querySelector('#cartModal').modal('hide')
+  }
   const addToCart = () => {
     if(qty > 0)
     {    
@@ -73,7 +76,7 @@ const Details = () => {
                             {
                               validUser.id ? <Input classCustom="number" text="Select quantity of this product" type="number" placeholder="qty" value={qty} action={setQty}/>
                                 :
-                              'You must login first'
+                              <div>You must login first <Link onClick={hideModal} to="/user">go to login</Link></div>
                             }
                         </div>
                         {validUser.id && <div className="modal-footer">
