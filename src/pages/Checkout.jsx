@@ -6,7 +6,7 @@ import CheckoutCard from '../components/CheckoutCard'
 import Loading from '../components/Loading'
 import '../styles/Checkout.css'
 import { useState,useEffect } from 'react'
-import {useNavigate} from 'react-router-dom'
+import {useNavigate,Link} from 'react-router-dom'
 
 const Checkout = () => {
   const navigate = useNavigate()
@@ -76,7 +76,7 @@ const Checkout = () => {
             </div>
             </>
           :
-          orderValidation.message
+          <div>{orderValidation.message} <Link to="/games">go back</Link></div>
         }
         </>
         }
